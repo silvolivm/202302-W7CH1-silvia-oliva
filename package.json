@@ -1,5 +1,5 @@
 {
-  "name": "week6.server",
+  "name": "w7ch1-silvia-oliva",
   "version": "1.0.0",
   "description": "Node Server",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "Node",
     "Server"
   ],
-  "author": "Alejandro Cerezo",
+  "author": "silvia oliva",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.4.0",

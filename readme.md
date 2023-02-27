@@ -1,30 +1,34 @@
-# Serve Node-TypeScrip-Jest
+# Week 6 - Challenge 5
 
-## Desde un proyecto previo sin typescript
+API REST Things I already know / Lo que querais
+Crea una API REST que se conecte a un fichero JSON, para manipular recursos de tipo cosas que ya sé. El JSON tendrá una sola propiedad de tipo array, donde almacenarán objetos que representarán cosas que hemos aprendido en el bootcamp.
 
-```shell
-mpm i
-```
+La API REST debe tener los siguientes endpoints:
 
-Añadimos:
+[GET] /things -> devuelve el array de cosas que ya sé
 
-- typescript
-- @types/node
+[GET] /things/:idThing -> devuelve una cosa que ya sé
 
-### Eslint
+[DELETE] /things/:idThing -> borra una cosa que ya sé
 
-- @typescript-eslint/eslint-plugin
-- @typescript-eslint/parser
+[POST] /things -> crea una cosa que ya sé (la recibe en el body)
 
-### Jest
+[PATCH] /things -> modifica una cosa que ya sé (la recibe en el body)
 
-- ts-jest
-- @types/jest
+Usamos express con las capas:
 
-```shell
- npm i -D typescript @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser ts-jest @types/jest
-```
+app
+router
+controller
+repo
+AÑADIMOS un front con REDUX testado
 
+Lista de 'things'
 
-- cross-env
-- dotenv
+Añadir 'thing'
+
+Borrar 'thing'
+
+Editar 'thing'
+
+Página de detalle
