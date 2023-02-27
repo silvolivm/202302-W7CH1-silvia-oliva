@@ -1,4 +1,6 @@
 [
-  { "id": 1, "name": "Cosa 1" },
-  { "id": 2, "name": "Cosa 2" }
+  { "id": 1, "name": "Coco", "color": "marron" },
+  { "id": 2, "name": "Limón", "color": "amarillo" },
+  { "id": 2, "name": "Naranja", "color": "naranja" },
+  { "id": 2, "name": "Manzana", "color": "roja" }
 ]
